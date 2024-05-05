@@ -2,3 +2,4 @@ By default docker has to be installed using root user only.
 Docker daemon also executes using root user which is also a drawback of docker.
 If docker daemon goes down, all our containers will be effective.
 Adding ubuntu user to docker group - command --> sudo usermod -aG docker ubuntu --> after that logout and login back
+Python applications or other applications requires their respective environment but go language does not require any run time environment.
